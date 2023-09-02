@@ -1,0 +1,81 @@
+:root {
+  --primary-color: #46280d;
+  --secondary-color: rgb(216, 217, 193);
+  --tertiary-color: rgb(255 253 249);
+  scroll-behavior: smooth;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat";
+  margin: 0;
+  color: var(--primary-color);
+}
+
+.section,.header-wrapper,.mobile-menu ul {
+  margin: 0 auto;
+}
+
+  .section,.header-wrapper,.mobile-menu ul {
+    max-width: calc(100% - 80px);
+  }
+
+@media (min-width: 576px) {
+  .section,.header-wrapper,.mobile-menu ul {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .section,.header-wrapper,.mobile-menu ul {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .section,.header-wrapper,.mobile-menu ul  {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1266px) {
+  .section,.header-wrapper,.mobile-menu ul  {
+    max-width: 1236px;
+  }
+}
+
+/* Style paragraphs and links */
+p {
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Mansalva";
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Mansalva";
+  margin-bottom: -10px;
+}
+
+a {
+  color: #5b65dc;
+  text-decoration: none;
+  display:inline-block;
+}
