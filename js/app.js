@@ -198,6 +198,16 @@ $(document).ready(function () {
       behavior: "smooth",
     });
   });
+  $(".nav-grades").click(function (e) {
+    e.preventDefault();
+    var destinationElement = $("#grades").get(0);
+    var destinationOffset =
+      destinationElement.getBoundingClientRect().top + window.scrollY - 60;
+    window.scrollTo({
+      top: destinationOffset,
+      behavior: "smooth",
+    });
+  });
   $(".nav-mobile-application").click(function (e) {
     e.preventDefault();
     var destinationElement = $("#mobile-application").get(0);
@@ -210,7 +220,7 @@ $(document).ready(function () {
   });
   $(".nav-web-application").click(function (e) {
     e.preventDefault();
-    var destinationElement = $("#web").get(0);
+    var destinationElement = $("#web-application").get(0);
     var destinationOffset =
       destinationElement.getBoundingClientRect().top + window.scrollY - 60;
     window.scrollTo({
