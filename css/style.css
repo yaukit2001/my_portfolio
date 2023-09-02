@@ -340,6 +340,7 @@ table {
   width: 160px;
 }
 .tab-desc table {
+  width: 100%;
   margin-bottom: 30px;
 }
 .tab-desc th,
